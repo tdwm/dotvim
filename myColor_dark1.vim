@@ -12,7 +12,7 @@ endif
 let g:colors_name="myColor_dark1"
 
 "hi Normal	guifg=#DFD6C1 guibg=gray14 gui=none
-hi Normal	guifg=#f8f8f2 guibg=black	ctermfg=lightgray ctermbg=black
+hi Normal	guifg=#DFD6C1  guibg=black	ctermfg=lightgray ctermbg=black
 
 " highlight groups
 hi Cursor       guifg=black          guibg=yellow		gui=none
@@ -31,7 +31,7 @@ hi Search       guifg=gray80         guibg=#445599		gui=none
 hi SpecialKey   guifg=cyan           gui=none
 hi StatusLine   guifg=black          guibg=Pink		gui=bold
 hi StatusLineNC guifg=grey           guibg=gray40		gui=none
-hi Title        guifg=#ff4400        gui=none			gui=bold
+hi Title        guifg=darkgrey        gui=none			gui=bold
 hi Visual       guifg=gray17         guibg=tan1			gui=none
 hi WarningMsg   guifg=salmon         gui=none
 hi Pmenu        guifg=white          guibg=#445599		gui=none
@@ -47,7 +47,7 @@ hi DiffDelete   guibg=gray45         guifg=black		gui=none
 hi Comment      guifg=gray50         gui=italic
 "hi Constant     guifg=#FF77FF        gui=none
 hi Constant     guifg=#e6db74        gui=none
-hi Identifier	guifg=green        gui=none
+hi Identifier	guifg=lightgreen        gui=none
 hi Function     guifg=#f8f8f2        gui=none
 "hi Statement    guifg=#a6e22e        gui=none
 hi Statement    guifg=#f92672        gui=none
